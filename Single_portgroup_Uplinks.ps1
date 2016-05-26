@@ -1,0 +1,1 @@
+Get-VDPortgroup "MyVDPortgroup" | Get-VDUplinkTeamingPolicy | Set-VDUplinkTeamingPolicy -NotifySwitches $true -FailoverDetectionPolicy Status
